@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body {
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(116, 108, 108);
+  text-align: justify;
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+head {
+  text-align: left;
+  color:black
+  font-family Arial, Helvetica, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.socialicon {
+  width: 20px;
+  height: 20px;
+  margin:  0px;
+}
+
+.recipecolumn {
+  column-count: 2;
+  column-width: unset;
+  float: none;
+  
+}
+
+.container {
+  position:relative;
+  column-width:150px 2;
+  float: none;
+}
+
+.bio {
+  margin-top: 20rem;
+  align-items: left;
+}
+
+#recipebutton {
+  background-color: rgb(168, 88, 35);
+  border: none;
   color: white;
+  padding: 15px 32px;
+  align-items: right;
 }
 
-.App-link {
-  color: #61dafb;
-}
+footer {
+margin-top: 3rem;
+text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
